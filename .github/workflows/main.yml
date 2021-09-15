@@ -18,6 +18,6 @@ jobs:
       - name: split upm branch
         run: |
           git subtree split -P "$PKG_ROOT" -b upm
-          git push -u origin upm
+          git push -f -u origin upm
         env:
           PKG_ROOT: 'Assets/SimpleInput'
