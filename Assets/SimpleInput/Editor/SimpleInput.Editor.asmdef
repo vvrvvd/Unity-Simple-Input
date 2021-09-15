@@ -1,0 +1,19 @@
+{
+    "name": "SimpleInput..Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:696a0953692949b40bec8730e64e1fdd",
+        "GUID:07221826f7c91184cb9da2f96764c18b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

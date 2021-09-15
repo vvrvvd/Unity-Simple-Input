@@ -1,0 +1,17 @@
+{
+    "name": "SimpleInput",
+    "rootNamespace": "",
+    "references": [
+        "GUID:696a0953692949b40bec8730e64e1fdd",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
