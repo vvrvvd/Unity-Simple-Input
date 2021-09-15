@@ -1,6 +1,6 @@
 {
   "name": "com.vvrvvd.simple-input",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Simple Input",
   "description": "Unity Simple Input is a wrapper for Unity InputSystem with custom input action set generator and continuous OnPress event implementation",
   "dependencies":
