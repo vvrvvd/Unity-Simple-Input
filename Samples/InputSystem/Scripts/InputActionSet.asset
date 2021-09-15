@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 422f9ed24f5082d46bcc42ac1365554f, type: 3}
+  m_Name: InputActionSet
+  m_EditorClassIdentifier: 
+  scriptGeneratorTemplate: {fileID: 11400000, guid: 282ab8b44b7717a4fbeb25d0cee4067b, type: 2}
+  scriptName: TestInputActionSet
+  relativeNamespace: Test.Test2
+  gamepadStickDeadzone: 0.5
+  actionSetTemplate:
+    actions:
+    - name: Move
+      actionType: 1
+      valueType: 1
+      bindings:
+      - name: '[Keyboard] W | S | A | D'
+        device: 2
+        type: 2
+        mouseInput: 0
+        mouseAxis1D:
+          negative: 0
+          positive: 0
+        mouseAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        gamepadInput: 0
+        gamepadAxis1D:
+          negative: 0
+          positive: 0
+        gamepadAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        keyboardInput: 0
+        keyboardAxis1D:
+          negative: 0
+          positive: 0
+        keyboardAxis2D:
+          up: 37
+          down: 33
+          left: 15
+          right: 18
+      - name: '[Gamepad] Left Stick'
+        device: 1
+        type: 0
+        mouseInput: 0
+        mouseAxis1D:
+          negative: 0
+          positive: 0
+        mouseAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        gamepadInput: 8
+        gamepadAxis1D:
+          negative: 0
+          positive: 0
+        gamepadAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        keyboardInput: 0
+        keyboardAxis1D:
+          negative: 0
+          positive: 0
+        keyboardAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+    - name: MouseLookAxis
+      actionType: 1
+      valueType: 1
+      bindings:
+      - name: '[Mouse] Delta'
+        device: 0
+        type: 0
+        mouseInput: 7
+        mouseAxis1D:
+          negative: 0
+          positive: 0
+        mouseAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        gamepadInput: 0
+        gamepadAxis1D:
+          negative: 0
+          positive: 0
+        gamepadAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        keyboardInput: 0
+        keyboardAxis1D:
+          negative: 0
+          positive: 0
+        keyboardAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+    - name: GamepadLookAxis
+      actionType: 1
+      valueType: 1
+      bindings:
+      - name: '[Gamepad] Right Stick'
+        device: 1
+        type: 0
+        mouseInput: 0
+        mouseAxis1D:
+          negative: 0
+          positive: 0
+        mouseAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        gamepadInput: 9
+        gamepadAxis1D:
+          negative: 0
+          positive: 0
+        gamepadAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        keyboardInput: 0
+        keyboardAxis1D:
+          negative: 0
+          positive: 0
+        keyboardAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+    - name: Interact
+      actionType: 0
+      valueType: 0
+      bindings:
+      - name: '[Mouse] Left Button'
+        device: 0
+        type: 0
+        mouseInput: 1
+        mouseAxis1D:
+          negative: 0
+          positive: 0
+        mouseAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        gamepadInput: 0
+        gamepadAxis1D:
+          negative: 0
+          positive: 0
+        gamepadAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        keyboardInput: 1
+        keyboardAxis1D:
+          negative: 0
+          positive: 0
+        keyboardAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+      - name: '[Keyboard] Space'
+        device: 2
+        type: 0
+        mouseInput: 0
+        mouseAxis1D:
+          negative: 0
+          positive: 0
+        mouseAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        gamepadInput: 0
+        gamepadAxis1D:
+          negative: 0
+          positive: 0
+        gamepadAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        keyboardInput: 1
+        keyboardAxis1D:
+          negative: 0
+          positive: 0
+        keyboardAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+      - name: '[Gamepad] A'
+        device: 1
+        type: 0
+        mouseInput: 0
+        mouseAxis1D:
+          negative: 0
+          positive: 0
+        mouseAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        gamepadInput: 6
+        gamepadAxis1D:
+          negative: 0
+          positive: 0
+        gamepadAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0
+        keyboardInput: 0
+        keyboardAxis1D:
+          negative: 0
+          positive: 0
+        keyboardAxis2D:
+          up: 0
+          down: 0
+          left: 0
+          right: 0

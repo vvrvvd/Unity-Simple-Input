@@ -1,0 +1,106 @@
+using SimpleInput;
+using SimpleInput.InputSystem;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
+
+namespace #RELATIVENAMESPACE#
+{
+	public class #SCRIPTNAME# : InputSystemSimpleActionSet
+	{
+        #INPUT_ACTIONS_DEFINITION_START#
+        #INPUT_AXIS_ACTIONS_DEFINITION_START#
+        #INPUT_VECTOR2_ACTIONS_DEFINITION_START#
+        
+        protected override void CreateInputActions()
+        {
+            #CREATE_INPUT_ACTIONS_DEFINITION_START#
+        }
+
+        #NOTRIM#
+
+        protected override void CreateInputAxisActions()
+        {
+            #CREATE_INPUT_AXIS_ACTIONS_DEFINITION_START#
+        }
+
+        #NOTRIM#
+
+        protected override void CreateInputVector2Actions()
+        {
+            #CREATE_INPUT_VECTOR2_ACTIONS_DEFINITION_START#
+        }
+
+        #NOTRIM#
+
+        protected override void AddInputActions()
+        {
+            #ADD_INPUT_ACTIONS_DEFINITION_START#
+        }
+
+        #NOTRIM#
+
+        protected override void AddInputAxisActions()
+        {
+            #ADD_INPUT_AXIS_ACTIONS_DEFINITION_START#
+        }
+
+        #NOTRIM#
+
+        protected override void AddInputVector2Actions()
+        {
+            #ADD_INPUT_VECTOR2_ACTIONS_DEFINITION_START#
+        }
+
+        #NOTRIM#
+
+        protected override void OnMouseConnected(Mouse mouse)
+        {
+            #REGISTER_MOUSE_INPUT_ACTION_START#
+            #REGISTER_MOUSE_AXIS_INPUT_ACTION_START#
+            #REGISTER_MOUSE_AXIS_BUTTONS_INPUT_ACTION_START#
+            #REGISTER_MOUSE_VECTOR2_INPUT_ACTION_START#
+            #REGISTER_MOUSE_VECTOR2_BUTTONS_INPUT_ACTION_START#
+        }
+
+        #NOTRIM#
+
+        protected override void OnKeyboardConnected(Keyboard keyboard)
+        {
+            #REGISTER_KEYBOARD_INPUT_ACTION_START#
+            #REGISTER_KEYBOARD_AXIS_INPUT_ACTION_START#
+            #REGISTER_KEYBOARD_AXIS_BUTTONS_INPUT_ACTION_START#
+            #REGISTER_KEYBOARD_VECTOR2_INPUT_ACTION_START#
+            #REGISTER_KEYBOARD_VECTOR2_BUTTONS_INPUT_ACTION_START#
+        }
+
+        #NOTRIM#
+
+        protected override void OnGamepadConnected(Gamepad gamepad)
+        {
+            #REGISTER_GAMEPAD_INPUT_ACTION_START#
+            #REGISTER_GAMEPAD_AXIS_INPUT_ACTION_START#
+            #REGISTER_GAMEPAD_AXIS_BUTTONS_INPUT_ACTION_START#
+            #REGISTER_GAMEPAD_VECTOR2_INPUT_ACTION_START#
+            #REGISTER_GAMEPAD_VECTOR2_BUTTONS_INPUT_ACTION_START#
+        }
+
+        #NOTRIM#
+
+        protected override void OnMouseDisconnected(Mouse mouse)
+        {
+        }
+
+        #NOTRIM#
+
+        protected override void OnGamepadDisconnected(Gamepad gamepad)
+        {
+        }
+
+        #NOTRIM#
+
+        protected override void OnKeyboardDisconnected(Keyboard keyboard)
+        {
+        }
+    }
+}
