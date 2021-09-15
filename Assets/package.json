@@ -1,0 +1,18 @@
+{
+  "name": "com.vvrvvd.simple-input",
+  "version": "0.1.0",
+  "displayName": "Simple Input",
+  "description": "Unity Simple Input is a wrapper for Unity InputSystem with custom input action set generator and continuous OnPress event implementation",
+  "dependencies":
+  {
+    "com.unity.inputsystem": "1.0.2",
+	"com.arimger.editor-toolbox": "https://github.com/arimger/Unity-Editor-Toolbox.git#upm",
+  },
+  "keywords": [ "simple", "input", "inputsystem" ],
+  "unity": "2020.1",
+  "author": {
+    "name": "vvrvvd",
+    "email": "vvrvvd@gmail.com.com",
+    "url": "https://github.com/vvrvvd"
+  }
+}
