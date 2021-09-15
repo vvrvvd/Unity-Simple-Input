@@ -13,7 +13,7 @@
 
 ## Introduction <a name="introduction"></a>
 
-**Unity Simple Input**  is a simple wrapper for Unity InputSystem with custom input action set generator and continuous OnPress event implementation. 
+**Unity Simple Input**  is a simple wrapper for Unity InputSystem with custom input action set generator and continuous OnPressed event implementation. 
 
 ## Features <a name="features"></a>
 
