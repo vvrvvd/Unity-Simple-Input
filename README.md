@@ -18,8 +18,8 @@
 ## Features <a name="features"></a>
 
 - Input action sets script generator
-- Three types of Actions: button, float and Vector2
-- Gamepad, Keyboard and Mouse bindings
+- Three types of Actions: button, float, and Vector2
+- Gamepad, Keyboard, and Mouse bindings
 - OnPressed event invoked every frame the action is being active
 
 ## System Requirements <a name="system-requirements"></a>
