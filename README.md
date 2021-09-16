@@ -9,6 +9,7 @@
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Overview](#overview)
+	- [Generating actions](#generating-actions)
 - [License](#license)
 
 ## Introduction <a name="introduction"></a>
@@ -41,6 +42,13 @@ https://github.com/vvrvvd/Unity-Simple-Input.git#upm
 
 ## Overview <a name="overview"></a>
 
+### Generating actions <a name="generating-actions"></a>
+
+Actions are grouped in action sets and may be created through scriptable object generator:
+ 1. Create new scriptable Action Set Generator in Project (```Create->Simple Input->Input System->Input Action Set```)
+
+ <img src="https://i.imgur.com/0DqLQ9b.gif">
+ 
  ## License <a name="license"></a>
  
 [MIT](https://opensource.org/licenses/MIT)
