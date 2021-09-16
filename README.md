@@ -10,6 +10,7 @@
 - [Installation](#installation)
 - [Overview](#overview)
 	- [Generating actions](#generating-actions)
+	- [Using actions](#using-actions)
 - [License](#license)
 
 ## Introduction <a name="introduction"></a>
@@ -45,10 +46,45 @@ https://github.com/vvrvvd/Unity-Simple-Input.git#upm
 ### Generating actions <a name="generating-actions"></a>
 
 Actions are grouped in action sets and may be created through scriptable object generator:
- 1. Create new scriptable Action Set Generator in Project (```Create->Simple Input->Input System->Input Action Set```)
+ 1. Create new scriptable Action Set Generator in Project view (```Simple Input->Input System->Input Action Set```).
+ 2. Set **Script Name**, **Relative Namespace** and add actions with bindings to **Action Set Template** list.
 
- <img src="https://i.imgur.com/0DqLQ9b.gif">
+	<img src="https://i.imgur.com/LfvvIbt.png">
  
+ 3. Click **Generate script** button to generate Action Set Script.
+
+### Using actions <a name="using-actions"></a>
+
+To use actions you must first create instance of **InputSystemSimpleManager** class and invoke it's **Update** method every frame.
+There is a MonoBehaviour wrapper implementation for **InputSytemSimpleManager** called **InputSystemSimpleMonoManager** that you may simply add to your scene.
+
+1. Create an instance of your **InputActionSet** in code:
+```C#
+testActionSet = new TestActionSet();
+``` 
+
+2. Register the instance to your **InputSystemSimpleManager**:
+```C#
+inputSystemManager.RegisterInputActionSet(testActionSet);
+``` 
+
+3. Bind events to actions:
+```C#
+testActionSet.Run.BindEvent(Run, InputEventType.Down);
+testActionSet.Move.BindEvent(Move);
+
+...
+
+private void Run();
+private void Move(Vector2 input);
+``` 
+
+4. You can also unbind events from actions:
+```C#
+testActionSet.Run.UnbindEvent(Run, InputEventType.Down);
+testActionSet.Move.UnbindEvent(Move);
+```
+	
  ## License <a name="license"></a>
  
 [MIT](https://opensource.org/licenses/MIT)
