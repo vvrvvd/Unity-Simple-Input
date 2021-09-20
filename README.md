@@ -31,6 +31,7 @@ Unity 2020.1 or newer.
 ## Dependencies <a name="dependencies"></a>
 
 [Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.1/manual/index.html)
+
 [Editor Toolbox](https://github.com/arimger/Unity-Editor-Toolbox)
 
 ## Installation <a name="installation"></a>
